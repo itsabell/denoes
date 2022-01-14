@@ -1,3 +1,40 @@
+/* 
+-----------------------------------------------
+Blogger Template Style
+Name:        NewsPlus
+Author :     http://www.templatesyard.com
+License:     Free Version
+----------------------------------------------- */
+
+/*
+<!-- Variable definitions -->
+<Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#ff3b30"/>
+<Variable name="followByEmail" description="Follow By Email Text" type="string" default="Get all latest content delivered straight to your inbox." value="Get all latest content delivered straight to your inbox."/>
+
+<Group description="Theme Body" selector="body">
+  <Variable name="body.background.color" description="Body Background Color" type="color" default="#f8f8f8"  value="#f8f8f8"/>
+  <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) url() repeat fixed top left" value="$(color) url() repeat fixed top left"/>
+  <Variable name="body.text.color" description="Text Color" type="color" default="#656565"  value="#000000"/>
+  <Variable name="body.link.color" description="Link Color" type="color" default="$(main.color)"  value="#ff3b30"/>
+</Group>
+
+<Group description="Theme Colors" selector="body">
+ <Variable name="main.color" description="Theme Color" type="color" default="#ff3b30" value="#ff3b30"/>
+  <Variable name="main.dark.color" description="Dark Color" type="color" default="#111111" value="#111111"/>
+  <Variable name="title.color" description="Title Color" type="color" default="#111111" value="#111111"/>
+  <Variable name="title.hover" description="Title Color on Hover" type="color" default="$(main.color)" value="#ff3b30"/>
+  <Variable name="footer.color" description="Footer Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+ 
+<!-- Extra Variables -->
+<Variable name="body.text.font" description="Font" hideEditor="true" type="font" default="14px Roboto, sans-serif"  value="14px Roboto, sans-serif"/>
+<Variable name="posts.background.color" description="Post background color" hideEditor="true" type="color" default="#ffffff"  value="#ffffff"/>
+<Variable name="tabs.font" description="Font 2" hideEditor="true" type="font" default="14px Roboto, sans-serif"  value="14px Roboto, sans-serif"/>
+<Variable name="posts.title.color" description="Post title color" hideEditor="true" type="color" default="#111111"  value="#111111"/>
+<Variable name="posts.text.color" description="Post text color" hideEditor="true" type="color" default="#656565"  value="#656565"/>
+<Variable name="posts.icons.color" description="Post icons color" hideEditor="true" type="color" default="$(main.color)"  value="#ff3b30"/>
+<Variable name="labels.background.color" description="Label background color" hideEditor="true" type="color" default="$(main.color)"  value="#ff3b30"/>
+*/
 #HTML1 img {
 	aspect-ratio: attr(width) / attr(height);
 }
