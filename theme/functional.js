@@ -259,7 +259,7 @@ $(function() {
     }), $(".avatar-image-container img").attr("src", function(t, a) {
         return a = (a = a.replace("/s35-c/", "/s45-c/")).replace("//img1.blogblog.com/img/blank.gif", "//4.bp.blogspot.com/-uCjYgVFIh70/VuOLn-mL7PI/AAAAAAAADUs/Kcu9wJbv790hIo83rI_s7lLW3zkLY01EA/s55-r/avatar.png")
     }), $(".index-post .post-image-link img").attr("src", function(t, a) {
-        return a = a.replace("https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4-&ndash;I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png", noThumbnail)
+        return a = a.replace("https://1.bp.blogspot.com/-9jZ1U7XTNs4/YafckE0gVLI/AAAAAAAABh4/iFV9HjuSlc8xBnh-6_df_UVH18S7_siDgCLcBGAsYHQ/s600/D07LeSRzpL.jpg", noThumbnail)
     }), $(".author-description a").each(function() {
         $(this).attr("target", "_blank")
     }), $(".post-nav").each(function() {
