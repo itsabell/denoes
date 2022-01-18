@@ -170,7 +170,7 @@ $(function() {
 
     function n(t, a) {
         var e = t[a].content.$t.replace(/<img([^>]*)\ssrc=(['"])(?:[^\2\/]*\/)*([^\2]+)\2/gi, "<img$1 hiddensrc=$2$3$2");
-        return '<p class="post-snippet">' + $("<div>").html(e).text().trim().substr(0, 86) + "…</p>"
+        return '<p class="post-snippet">' + $("<div>").html(e).text().trim().substr(0, 86) + "...</p>"
     }
 
     function c(c, o, r, m) {
