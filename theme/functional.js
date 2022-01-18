@@ -330,8 +330,6 @@ $(function() {
         "blogger" == a ? $(this).addClass(s).show() : "disqus" == a ? ((t = document.createElement("script")).type = "text/javascript", t.async = !0, t.src = "//" + disqusShortname + ".disqus.com/embed.js", (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(t), $("#comments, #gpluscomments").remove(), $(this).append('<div id="disqus_thread"/>').addClass(s).show()) : "facebook" == a ? ($("#comments, #gpluscomments").remove(), $(this).append(e).addClass(s).show()) : "hide" == a ? $(this).hide() : $(this).addClass("comments-system-default").show()
     })
 });
-  importScripts('https://web.webpushs.com/js/push/852e69102c0ef78635e7e2f49b14d753_1.js');
-  importScripts('https://web.webpushs.com/sp-push-worker-fb.js?ver=2.0');
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
