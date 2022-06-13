@@ -36,7 +36,7 @@ setTimeout(function() {
 
     OneSignal.init({
 
-      appId: &quot;fc81fe02-01c0-4ba5-8768-5f942180b654&quot;,
+      appId: "fc81fe02-01c0-4ba5-8768-5f942180b654",
 
     });
 
