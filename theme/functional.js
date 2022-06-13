@@ -30,4 +30,16 @@ setTimeout(function() {
         accurateTrackBounce: true,
         webvisor: true
     });
+   window.OneSignal = window.OneSignal || [];
+
+  OneSignal.push(function() {
+
+    OneSignal.init({
+
+      appId: &quot;fc81fe02-01c0-4ba5-8768-5f942180b654&quot;,
+
+    });
+
+  });
+
 }, 5000)
