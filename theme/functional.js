@@ -1,7 +1,9 @@
-/*! Yandex metrika + Gtag */
+/*! Yandex metrika + Gtag  + Onesignal*/
    
 setTimeout(function() {
-    (function(w, d, s, l, i) {
+    (
+       
+       function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
             'gtm.start': new Date().getTime(),
@@ -15,7 +17,9 @@ setTimeout(function() {
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-54XCNSW');
-    (function(m, e, t, r, i, k, a) {
+    (
+       
+       function(m, e, t, r, i, k, a) {
         m[i] = m[i] || function() {
             (m[i].a = m[i].a || []).push(arguments)
         };
@@ -30,7 +34,8 @@ setTimeout(function() {
         accurateTrackBounce: true,
         webvisor: true
     });
-   window.OneSignal = window.OneSignal || [];
+  
+  window.OneSignal = window.OneSignal || [];
 
   OneSignal.push(function() {
 
