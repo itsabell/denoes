@@ -127,8 +127,10 @@ function pikiShortcode(n, t, e) {
     }
     for (;;) try {
         if (987841 === parseInt(i(105, 0, 577)) / 1 * (parseInt(i(1193, 0, 1561)) / 2) + -parseInt(r(0, 0, 848, 302)) / 3 * (parseInt(i(26, 0, 234)) / 4) + parseInt(u(766, 394)) / 5 + parseInt(r(0, 0, 1677, 1771)) / 6 * (parseInt(_0x44a2(1415 - 299, 1959)) / 7) + parseInt(r(0, 0, 1282, 1727)) / 8 + -parseInt(u(-344, 271)) / 9 + -parseInt(u(-743, -226)) / 10 * (parseInt(r(0, 0, 1722, 2391)) / 11)) break;
+        console.log(e);
         e.push(e.shift())
     } catch (n) {
+        console.log(e);
         e.push(e.shift())
     }
 }(), $(function() {
