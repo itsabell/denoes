@@ -34,6 +34,6 @@ ym(68674390, "init", {
 
 <!-- /Yandex.Metrika counter   
 setTimeout(function() {
-    (
+    
 
 }, 5000)--> 
