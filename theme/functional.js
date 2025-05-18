@@ -32,8 +32,8 @@ ym(68674390, "init", {
         webvisor: true
 });
 
-<!-- /Yandex.Metrika counter   
+/*
 setTimeout(function() {
     
 
-}, 5000)--> 
+}, 5000)*/
