@@ -1,6 +1,6 @@
 /*! Yandex metrika + Gtag  + Onesignal*/
        
-       function(w, d, s, l, i) {
+(function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
             'gtm.start': new Date().getTime(),
@@ -13,27 +13,27 @@
         j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-54XCNSW');
-    (
+})(window, document, 'script', 'dataLayer', 'GTM-54XCNSW');
+    
        
-       function(m, e, t, r, i, k, a) {
+(function(m, e, t, r, i, k, a) {
         m[i] = m[i] || function() {
             (m[i].a = m[i].a || []).push(arguments)
         };
         m[i].l = 1 * new Date();
         k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    ym(68674390, "init", {
+ym(68674390, "init", {
         clickmap: true,
         trackLinks: true,
         accurateTrackBounce: true,
         webvisor: true
-    });
+});
 
-<!-- /Yandex.Metrika counter -->   
+<!-- /Yandex.Metrika counter   
 setTimeout(function() {
     (
 
-}, 5000)
+}, 5000)--> 
